@@ -1,0 +1,1 @@
+You leave Suite D, making sure you close the door behind you. You head toward the basketball courts. A spritely young man is standing in the middle of the court, facing east. He is emotionless, blankly staring and unmoving.|walk in front of him~Pokemon1|walk behind him~PepperCanyon1|
