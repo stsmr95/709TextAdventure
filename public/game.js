@@ -1,14 +1,21 @@
 var SERVER_ADDRESS = 'http://ec2-54-215-232-7.us-west-1.compute.amazonaws.com/';
 
+var LOOP_START = 10;
+
+
 var socket;
 var descriptionBox;
 var optionsBox;
+var musicPlayer;
 var currentOptions = [];
 
 function start()
 {
     descriptionBox = document.getElementById("gameDescription");
     optionsBox = document.getElementById("gameOptions");
+
+    musicPlayer = document.getElementById('audio1');
+    playMusic();
 
     socket = io.connect(SERVER_ADDRESS);
     socket.on('newScene', function (data) {
@@ -23,6 +30,16 @@ function start()
         writeOptions(stringParts);
     });
 }
+
+function playMusic()
+{
+    /* from http://stackoverflow.com/questions/3273552/html-5-audio-looping */
+    musicPlayer.addEventListener('ended', function() {
+        this.currentTime = LOOP_START;
+        this.play();
+    }, false);
+    musicPlayer.play();
+}    
 
 function clearText()
 {
