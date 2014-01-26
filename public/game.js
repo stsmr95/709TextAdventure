@@ -39,7 +39,7 @@ function writeDescription(descriptionString)
 {
     descriptionBox.appendChild(descriptionBox.ownerDocument.createTextNode(descriptionString));
     var linebreak = document.createElement('br');
-    descriptionBox.appendChild(descriptionBreak);
+    descriptionBox.appendChild(lineBreak);
 }
 
 function writeOptions(stringParts)
