@@ -1,1 +1,1 @@
-Racoon has mauled your face and you fell to Outback Adventures Hill.|Climb back up to Structural Engineering Building~StructEng|Move to Arts Building.~VA1
+Racoon has mauled your face and you fell to Outback Adventures Hill.|Walk up hill towards Structural Engineering Building~StructEng|Go inside Outback Adventures~OutbackA
