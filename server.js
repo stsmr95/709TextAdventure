@@ -38,7 +38,7 @@ function sendScene( socket, data )
 {
     /* Read code from text file */
     /* first check for invalid input */
-    if (data[0].indexOf("\\") == -1 && data[0].indexOf("/") == -1)
+    if (data[0].length>0 && data[0].indexOf("\\") == -1 && data[0].indexOf("/") == -1)
     {
        /* try to read the file */
        fs.readFile("public/Scenes/"+data[0]+".txt", 'utf8', 
