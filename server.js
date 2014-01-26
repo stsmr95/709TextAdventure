@@ -46,7 +46,7 @@ function sendScene( socket, data )
                       if (err) throw err; /* problem */
 
                       /* send to client */
-                      socket.emit('newScene', [data]);
+                      socket.emit('newScene', [result]);
                    });
     }
 
