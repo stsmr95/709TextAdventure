@@ -45,25 +45,36 @@ function writeDescription(descriptionString)
 
 function writeOptions(stringParts)
 {
+    /* holds the user display text and resulting file of each option */
     var optionData;
-    var currentOptions = stringParts.length;
+
+    /* create divs with text for each option */
     for (var i=1; i<stringParts.length; i++)
     {
+        /* split on ~ */
         optionData = stringParts[i].split("~");
 
-        console.log(optionData);
         /* from http://stackoverflow.com/questions/19494339/creating-dynamic-div-using-javascript */
         var ele = document.createElement("div");
         ele.setAttribute("id","option"+i);
         ele.setAttribute("class","inner");
         ele.innerHTML=optionData[0];
-        currentOptions[i-1]=optionData[1]
-        ele.onclick = function(){ socket.emit("newScene",[currentOptions[i-1]]); }
+        currentOptions[i-1]=optionData[1];
+
+        /* need to use closures for this to keep the current value of i */
+        ele.onclick = (function() { 
+                            var currentI = i; 
+                            return function() {
+                                selectOption(currentOptions[currentI-1]); 
+                            }
+                        })();
+
+        /* add the finished object to the container */
         optionsBox.appendChild(ele);
     }
 }
 
-function selectionOption(choice)
+function selectOption(choice)
 {
     socket.emit("newScene",[choice]);
 }
