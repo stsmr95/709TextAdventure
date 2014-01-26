@@ -1,0 +1,1 @@
+You turn like planned, but at the same time, an art student who wears all green walks out. He tells you to that he thinks creatively and how that uses his hair to express himself. He asks what color he is.|Answer “Green”.~VAArtStudent2|Just start backing up.~VAArtStudent3

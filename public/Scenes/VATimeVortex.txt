@@ -1,0 +1,1 @@
+As you progress, you discover a glowing portal. It’s pretty normal stuff. In the portal you vaguely see a cake. Should you go through the portal or just walk past it?|Go through portal.~TimeVortex|Walk past it.~Gazebo1

@@ -1,0 +1,1 @@
+You man up and walk into the creepy place. There is a scary sound coming from where you are supposed to turn. It is probably an art student working late. On the other hand, you can take a detour through a dark alley way with no lights. What do you do?|Turn like planned. ~VAArtStudent|Take the detour.~VADarkAlley

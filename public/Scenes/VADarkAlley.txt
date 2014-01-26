@@ -1,0 +1,1 @@
+In the dark alleyway you bump into a large statue which blocks your way. A janitor comes your way.|Ask him to help you move the statue~VADarkAlley2|Ask him to find the owner of the statue~VADarkAlley3
