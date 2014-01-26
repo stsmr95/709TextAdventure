@@ -1,1 +1,1 @@
-You rebuild the TARDIS but it's locked. I don't know how you managed to do that.|nice try though~Start|
+You attempt to rebuild the TARDIS pieces in the corner of the study room into a working TARDIS. You somehow pull it off and successfully rebuild the TARDIS! Unfortunately, when you try to open it, you find that it's locked. I don't know how you managed to do that. Nice try though!|Try something else~Start

@@ -1,1 +1,1 @@
-Racoon has mauled your face and you fell to Outback Adventures Hill.|Walk up hill towards Structural Engineering Building~StructEng|Go inside Outback Adventures~OutbackA
+The racoon leaps at you and mauls your face, causing you to stagger backwards and tumble down a hill. Getting up off the floor, you find yourself outside Outback Adventures.|Walk up the hill towards the Structural Engineering Building~StructEng|Go inside Outback Adventures~OutbackA

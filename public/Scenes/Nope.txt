@@ -1,1 +1,1 @@
-Who studies in the study room?|"not me!"~Start|
+Who studies in the study room?|"Not me!"~Start

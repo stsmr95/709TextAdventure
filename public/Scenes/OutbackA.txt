@@ -1,1 +1,1 @@
-Inside Outback Adventures.|Look Around and walk out~StructEng|Rent a coanoe and paddle then go back up to confront the racoon in your canoe ~RacoonAgain
+You open the door and walk into the dark interior of Outback Adventures - it seems no one is here, yet they do have one canoe available for rent.|Look Around and walk out~StructEng|Rent a canoe and paddle then go back up to confront the racoon in your canoe ~RacoonAgain
