@@ -38,7 +38,7 @@ function sendScene( data )
 {
     /* Read code from text file */
     /* first check for invalid input */
-    if (!data[0].contains("\\") && !data[0].contains("/"))
+    if (data[0].indexof("\\") == -1 && data[0].contains("/") == -1)
     {
        /* try to read the file */
        fs.readFile("public/"+data[0]+".txt", 'utf8', 

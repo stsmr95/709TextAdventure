@@ -61,5 +61,5 @@ function writeOptions(stringParts)
 
 function selectionOption(choice)
 {
-    socket.emit("newScene",{choice});
+    socket.emit("newScene",[choice]);
 }
