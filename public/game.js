@@ -41,6 +41,22 @@ function playMusic()
     musicPlayer.play();
 }    
 
+function toggleMusic()
+{
+    if (musicPlayer.paused)
+    {
+        musicPlayer.addEventListener('ended', function() {
+            this.currentTime = LOOP_START;
+            this.play();
+        }, false);
+        musicPlayer.play()
+    }
+    else
+    {
+        musicPlayer.pause();
+    }
+}
+
 function clearText()
 {
     while(descriptionBox.childNodes.length>=1)
