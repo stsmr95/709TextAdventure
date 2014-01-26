@@ -1,0 +1,1 @@
+You can't run from a trainer battle! But since you're not a trainer, you run away from the battle. The youngster shakes his fist at you as you flee. You end up at Conrad Preby's Music Center. There's a free concert.|go to the concert~Prebys2|cross the street~PrebysEnd|stand perfectly still and look up~Aliens1|

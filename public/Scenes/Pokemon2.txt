@@ -1,1 +1,1 @@
-Youngster wants to fight! Youngster sent out Rattata!|fight~PokemonEnd|pokemon~|item~Oak|run~Prebys1|
+Youngster wants to fight! Youngster sent out Rattata!|fight~PokemonEnd|pokemon~Pokemon3|item~Oak|run~Prebys1|
