@@ -1,0 +1,1 @@
+"What is it you wish adventurer? Ask the conch."|"Can I go to Price Center and end my long journey?"~ConchNo|"Can I not go to Price Center and end my long journey?"~ConchNo2
