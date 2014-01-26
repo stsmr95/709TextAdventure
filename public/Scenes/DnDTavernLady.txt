@@ -1,8 +1,2 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1265
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
-
-\f0\fs24 \cf0 You sit down next to the well-dressed woman.  When she turns her head, you realize that this is the most beautiful woman you\'92ve ever seen.  All thoughts of the captain and the Durger King immediately leave your head.  You must talk to this woman.  But before you can utter a word, she says:\
-\'93I swear to whatever god you follow, if you\'92re about to hit on me, I will kick your teeth in.\'94  Being a righteous and upright citizen, you respect the woman\'92s wishes as an equal, and leave her be.|Try talking to that scary person in the corner~DnDTavernScary}
+You sit down next to the well-dressed woman.  When she turns her head, you realize that this is the most beautiful woman you’ve ever seen.  All thoughts of the captain and the Durger King immediately leave your head.  You must talk to this woman.  But before you can utter a word, she says:
+“I swear to whatever god you follow, if you’re about to hit on me, I will kick your teeth in.”  Being a righteous and upright citizen, you respect the woman’s wishes as an equal, and leave her be.|Try talking to that scary person in the corner~DnDTavernScary
