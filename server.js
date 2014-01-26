@@ -25,7 +25,7 @@ io.sockets.on('connection', function (socket) {
           if (!data[0].contains("\\") && !data[0].contains("/"))
           {
              /* try to read the file */
-             fs.readFile("public/"+data[0]), 'utf8', 
+             fs.readFile("public/"+data[0], 'utf8', 
                          function(err, result) { 
                             if (err) throw err; /* problem */
 
