@@ -3,6 +3,7 @@ var SERVER_ADDRESS = 'http://ec2-54-215-232-7.us-west-1.compute.amazonaws.com/';
 var socket;
 var descriptionBox;
 var optionsBox;
+var currentOptions;
 
 function start()
 {
@@ -39,22 +40,25 @@ function writeDescription(descriptionString)
 {
     descriptionBox.appendChild(descriptionBox.ownerDocument.createTextNode(descriptionString));
     var linebreak = document.createElement('br');
-    descriptionBox.appendChild(lineBreak);
+    descriptionBox.appendChild(linebreak);
 }
 
 function writeOptions(stringParts)
 {
     var optionData;
+    var currentOptions = stringParts.length;
     for (var i=1; i<stringParts.length; i++)
     {
         optionData = stringParts[i].split("~");
 
+        console.log(optionData);
         /* from http://stackoverflow.com/questions/19494339/creating-dynamic-div-using-javascript */
         var ele = document.createElement("div");
         ele.setAttribute("id","option"+i);
         ele.setAttribute("class","inner");
         ele.innerHTML=optionData[0];
-        ele.setAttribute("onClick","selectOption("+optionData[1]+")");
+        currentOptions[i-1]=optionData[1]
+        ele.onclick = function(){ socket.emit("newScene",[currentOptions[i-1]]); }
         optionsBox.appendChild(ele);
     }
 }
