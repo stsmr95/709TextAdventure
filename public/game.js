@@ -57,7 +57,7 @@ function writeOptions(stringParts)
         /* from http://stackoverflow.com/questions/19494339/creating-dynamic-div-using-javascript */
         var ele = document.createElement("div");
         ele.setAttribute("id","option"+i);
-        ele.setAttribute("class","inner");
+        ele.setAttribute("class","option");
         ele.innerHTML=optionData[0];
         currentOptions[i-1]=optionData[1];
 
