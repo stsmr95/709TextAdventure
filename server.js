@@ -43,7 +43,7 @@ function sendScene( socket, data )
        /* try to read the file */
        fs.readFile("public/Scenes/"+data[0]+".txt", 'utf8', 
                    function(err, result) { 
-                      if (err){ //do nothing; /* problem */}
+                      if (err){ /*do nothing*/ /* problem has occured*/}
 
                       /* send to client */
                       socket.emit('newScene', [result]);

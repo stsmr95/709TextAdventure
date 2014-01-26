@@ -14,7 +14,7 @@ function start()
     descriptionBox = document.getElementById("gameDescription");
     optionsBox = document.getElementById("gameOptions");
 
-    musicPlayer = document.getElementById('audio1');
+    musicPlayer = document.getElementById('music1');
     playMusic();
 
     socket = io.connect(SERVER_ADDRESS);
