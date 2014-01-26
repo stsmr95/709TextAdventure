@@ -3,7 +3,7 @@ var SERVER_ADDRESS = 'http://ec2-54-215-232-7.us-west-1.compute.amazonaws.com/';
 var socket;
 var descriptionBox;
 var optionsBox;
-var currentOptions;
+var currentOptions = [];
 
 function start()
 {
