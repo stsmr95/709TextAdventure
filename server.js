@@ -19,11 +19,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 /* socket.io */
 io.sockets.on('connection', function (socket) {
 
-  sendScene([STARTING_SCENE]);
+  sendScene(socket, [STARTING_SCENE]);
 
    /* when the server receives a request for a new scene */
    socket.on('newScene', function(data){
-       sendScene(data);
+       sendScene(socket, data);
    });
 });
 
@@ -34,19 +34,19 @@ io.sockets.on('connection', function (socket) {
 
 server.listen(8080);
 
-function sendScene( data )
+function sendScene( socket, data )
 {
     /* Read code from text file */
     /* first check for invalid input */
-    if (data[0].indexof("\\") == -1 && data[0].contains("/") == -1)
+    if (data[0].indexOf("\\") == -1 && data[0].indexOf("/") == -1)
     {
        /* try to read the file */
-       fs.readFile("public/"+data[0]+".txt", 'utf8', 
+       fs.readFile("public/Scenes/"+data[0]+".txt", 'utf8', 
                    function(err, result) { 
                       if (err) throw err; /* problem */
 
                       /* send to client */
-                      socket.emit('fPos', [data]);
+                      socket.emit('newScene', [data]);
                    });
     }
 
